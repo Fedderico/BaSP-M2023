@@ -10,6 +10,6 @@ In week two we began to build the model of the landing page
 ## Authors
 
 ### Week 01:
-Federico Frachia, Daniel Ninfi, Mateo Carciente.
+Federico Frachia.
 ### Week 02:
 Federico Fracchia.
