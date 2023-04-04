@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+header {
+    border-bottom: 1px black solid;
+}
+
+h1 {
+    display: inline-block;
+    color: rgba(73, 163, 123, 1);
+    width: 90%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+section {
+    border-bottom: 1px solid black;
+    height: 500px;
+}
+
+nav,
+ul,
+li {
+    display: inline;
+    width: 90%;
+
+}
+
+.section-title {
+    color: rgba(73, 163, 123, 1);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.section-sub-title {
+    color: rgba(73, 163, 123, 1);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.section-paragraph {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 400px;
+    height: 184px;
+    left: 134px;
+    top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+
+
+button {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 170px;
+    height: 47px;
+    left: 150px;
+    top: 5000px;
+    background: #FFFFFF;
+    border: 1px solid #49A37B;
+    border-radius: 5px;
+
+}
+
+.img {
+    display: inline-block;
+    width: 1000px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 150px;
+
+
+}
+
+.container {
+    display: inline-block;
+}
+
+.section-app {
+    width: 399px;
+    height: 640px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #49A37B;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container1 {
+    display: inline-block;
+}
+
+.image-reservation-shifts {
+    position: relative;
+    bottom: 590px;
+    left: 60px;
+    margin-top: 10%;
+}
+
+.reservation-of-turns {
+
+    position: relative;
+    bottom: 740px;
+    left: 180px;
+    margin-top: 10%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #49A37B;
+}
+
+.paragraph-reservation {
+    position: relative;
+    bottom: 730px;
+    left: 180px;
+    width: 463px;
+    height: 87px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+
+}
+
+.member {
+    position: relative;
+    bottom: 840px;
+    left: 60px;
+    margin-top: 10%;
+
+}
+
+.memeber-gestion {
+    position: relative;
+    bottom: 945px;
+    left: 170px;
+    width: 429px;
+    height: 71px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #49A37B;
+}
+
+.member-paragraph {
+    position: relative;
+    bottom: 980px;
+    left: 174px;
+    width: 463px;
+    height: 87px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.container3 {
+    display: inline-block;
+}
+
+.calendar-icon {
+    position: relative;
+    left: 1100px;
+    right: 44.73%;
+    top: 20.14%;
+    bottom: 1280px;
+
+}
+
+.calendar-title {
+    position: relative;
+    left: 1200px;
+    bottom: 1400px;
+    width: 535px;
+    height: 63px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #49A37B;
+
+}
+
+.calendar-paragraph {
+    position: relative;
+    left: 1200px;
+    bottom: 1400px;
+    width: 535px;
+    height: 97px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+
+}
+
+.container4 {
+    display: inline-block;
+}
+
+.question-img {
+    position: relative;
+    left: 555px;
+    bottom: 1110px;
+
+
+}
+
+.question-form {
+    position: relative;
+    left: 650px;
+    bottom: 1220px;
+    width: 535px;
+    height: 45px;
+    color: #49A37B;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+
+}
+
+.question-paragraph {
+    position: relative;
+    left: 650px;
+    bottom: 1210px;
+    width: 546px;
+    height: 85px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+
+}
+
+.about-us {
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    top: 60px;
+    width: 275px;
+    height: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #49A37B;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about-paragraph {
+    display: inline-block;
+    position: relative;
+    top: 110px;
+    left: 500px;
+    text-align: center;
+    width: 1013px;
+    height: 206px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.form-consult {
+    position: relative;
+    left: 350px;
+    top: 90px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #49A37B;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.first-name,
+.input-first-name {
+    position: relative;
+    top: 120px;
+    left: 290px;
+}
+
+.last-name {
+    position: relative;
+    top: 160px;
+    right: -10px;
+}
+
+.input-last-name {
+    position: relative;
+    bottom: 30px;
+    left: 365px;
+}
+
+.email {
+    position: relative;
+    left: 110px;
+    top: 10px;
+}
+
+.input-email {
+    position: relative;
+    left: 115px;
+    top: 10px;
+}
+
+textarea {
+    position: relative;
+    top: 320px;
+    right: 120px;
+}
+
+
+.bottom-submit {
+    position: relative;
+    top: 370px;
+    right: 1130px;
+}
+
+.form-reason {
+    position: relative;
+    width: 145px;
+    bottom: 180px;
+    left: 1150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #49A37B;
+
+}
+
+.membership,
+.membership-label,
+.consultation,
+.input-consultation,
+.consultation,
+.complain,
+.complain-label,
+.complain,
+.complain-label {
+    margin-top: 40px;
+    position: relative;
+    bottom: 190px;
+    left: 1150px;
+}
+
+.section-class {
+    position: relative;
+    top: 250px;
+    border-top: #000000 1px solid;
+}
+
+.title-classes {
+    position: relative;
+    width: 250px;
+    height: 70px;
+    left: 100px;
+    top: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #49A37B;
+}
+
+.crossfit,
+.spinning,
+.boxing,
+.fitness {
+    display: block;
+    position: relative;
+    width: 250px;
+    height: 70px;
+    left: 100px;
+    top: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    list-style: disc;
+}
+
+.black-membership {
+    position: relative;
+    left: 500px;
+    bottom: 325px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    list-style: disc;
+    color: #49A37B;
+}
+
+.black-membership1,
+.black-membership2,
+.black-membership3,
+.black-membership4 {
+    position: relative;
+    display: block;
+    left: 500px;
+    bottom: 300px;
+    font-size: 21px;
+    margin-top: 15px;
+}
+
+.classic-membership {
+    position: relative;
+    left: 980px;
+    bottom: 485px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    list-style: disc;
+    color: #49A37B;
+}
+
+.classic-membership1,
+.classic-membership2,
+.classic-membership3 {
+    position: relative;
+    display: block;
+    left: 980px;
+    bottom: 470px;
+    font-size: 21px;
+    margin-top: 15px;
+}
+
+.only-membership {
+    position: relative;
+    left: 1450px;
+    bottom: 625px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    list-style: disc;
+    color: #49A37B;
+}
+
+.only-membership1,
+.only-membership2 {
+    position: relative;
+    display: block;
+    left: 1450px;
+    bottom: 610px;
+    font-size: 21px;
+    margin-top: 15px;
+}
+
+
+footer {
+    display: block;
+    position: relative;
+    left: 800px;
+    top: 300px;
+}
+
+.logo-facebook,
+.logo-whatsapp,
+.logo-instagram {
+    position: relative;
+    left: 25px;
+}
