@@ -10,6 +10,9 @@ In week two we began to build the model of the landing page
 ## Week 03
 I included the files corresponding to the html structure, having as reference the figma project made in week 1
 
+## Week 04
+In week-04 I styled the page to view it from different types of screens (mobile, tablet and desktop)
+
 ## Authors
 
 ### Week 01:
