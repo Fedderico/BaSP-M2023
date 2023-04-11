@@ -1,0 +1,9 @@
+.wallpaper {
+    background-image: url(../assets/img/LOGO-RR\ 1.svg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}

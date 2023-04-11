@@ -1,0 +1,30 @@
+.function-set {
+    margin-bottom: black 1px solid;
+}
+
+h3 {
+    font-family: 'roboto', sans-serif;
+    font-weight: 500rem;
+    font-size: 2.5rem;
+    color: #49A37B;
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 50px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.app-funcion-item {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.app-funcion-item h2 {
+    color: #49A37B;
+    font-family: 'roboto' sans-serif;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

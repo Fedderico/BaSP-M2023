@@ -1,0 +1,22 @@
+.checkbox-input {
+    text-align: justify;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+#membresias,
+#consulta,
+#complain {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'roboto' sans-serif;
+
+}
+
+.checkbox-input label {
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    size: 24px;
+    line-height: 28.13px;
+    color: #373867;
+}

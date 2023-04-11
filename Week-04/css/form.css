@@ -1,0 +1,46 @@
+.name-input,
+.lname-input,
+.email-input {
+
+    display: none;
+    margin-top: 10px;
+}
+
+.form-query {
+    display: flex;
+    flex-direction: column;
+}
+
+#textarea {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+#fname,
+#lname,
+#email {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#email {
+    margin-top: 20px;
+}
+
+
+
+
+.button-imput {
+    background-color: #AACE9B;
+    width: 120px;
+    color: #373867;
+    font-family: 'roboto' sans-serif;
+    font-size: 12px;
+    line-height: 37px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+
+}
