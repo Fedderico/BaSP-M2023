@@ -31,6 +31,7 @@ console.log('-Exercise 1.c:');
 
 var variable1 = "hello";
 var variable2 = "world";
+
 var sumLength = variable1.length + variable2.length;
 
 console.log("The sum of the lengths of the variables is: " + sumLength);
