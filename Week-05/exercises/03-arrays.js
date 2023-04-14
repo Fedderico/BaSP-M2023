@@ -44,3 +44,48 @@ meses.unshift("Hola");
 meses.push("Mundo");
 
 console.log(meses);
+
+
+/*Quitar un elemento del principio y del final del array (utilizar shift y pop).*/
+
+console.log('-Exercise 3.d:')
+
+var miArray = [1, 2, 3, 4, 5];
+
+var firstElement = miArray.shift();
+var lastElement = miArray.pop();
+
+console.log(miArray);
+
+console.log(firstElement);
+console.log(lastElement);
+
+
+/*Invertir el orden del array (utilizar reverse).*/
+
+console.log('-Exercise 3.e:')
+
+var miArray = [1, 2, 3, 4, 5];
+miArray.reverse();
+
+console.log(miArray);
+
+
+/*Unir todos los elementos del array en un único string donde cada mes este separado por un guión - (utilizar join).*/
+
+console.log('-Exercise 3.f:')
+
+var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+var mesesConGuion = meses.join("-");
+
+console.log(mesesConGuion);
+
+/* Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).*/
+
+console.log('-Exercise 3.g:')
+
+var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+var mesesConCopia = meses.slice(5, 11);
+
+console.log(mesesConCopia);
+
