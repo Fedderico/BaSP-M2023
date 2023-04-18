@@ -65,11 +65,11 @@ desde el número 0 hasta al número 9. Mostrar por la consola del navegador el a
 
 console.log('-Exercise 5.d:')
 
-var array = [];
+var arrayEmpty = [];
 
 for (var i = 0; i < 10; i++) {
   
   array.push(i);
 }
 
-console.log(array);
+console.log(arrayEmpty);

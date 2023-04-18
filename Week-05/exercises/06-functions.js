@@ -61,7 +61,7 @@ console.log(validateInteger(10));
  console.log('-Exercise 6.d:');
 
 
- function sumaEnteros(num1, num2) {
+ function sumarEnteros(num1, num2) {
     if (typeof num1 !== 'number' || typeof num2 !== 'number') {
       alert("Error: Uno o ambos parámetros no son números.");
       return NaN;
@@ -94,18 +94,18 @@ probando que todo siga funcionando igual que en el apartado anterior.*/
 console.log('-Exercise 6.e:')
 
 
-function sumaEnteros(num1, num2) {
-    if (typeof num1 !== 'number' || typeof num2 !== 'number') {
-      alert("Error: Uno o ambos parámetros no son números.");
+function sumaEnteros(number1, number2) {
+    if (typeof number1 !== 'number' || typeof number2 !== 'number') {
+      alert("Error");
       return NaN;
     }
     
-    if (!esEntero(num1) || !esEntero(num2)) {
-      alert("Error: Uno o ambos parámetros no son números enteros.");
-      return Math.round(num1) + Math.round(num2);
+    if (!esEntero(number1) || !esEntero(number2)) {
+      alert("Error");
+      return Math.round(number1) + Math.round(numnumber22);
     }
   
-    return num1 + num2;
+    return number1 + number2;
   }
   
   function esEntero(num) {
