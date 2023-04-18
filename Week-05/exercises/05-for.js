@@ -2,16 +2,19 @@
 ///  CICLO FOR    ///
 /////////////////////
 
-console.log('-Exercise 5.a:')
+
 
 /*Crear un array que contenga 5 palabras y recorrer dicho array utilizando un bucle for de JavaScript 
 para mostrar una alerta utilizando cada una de las palabras.*/
 
-var palabras = ["hello", "World", "JavaScript", "Fedeveloper", "Web"];
+console.log('-Exercise 5.a:')
 
-for (var i = 0; i < palabras.length; i++) {
+
+var words = ["hello", "World", "JavaScript", "Fedeveloper", "Web"];
+
+for (var i = 0; i < words.length; i++) {
   
-  alert(palabras[i]);
+  alert(words[i]);
 }
 
 
@@ -45,13 +48,13 @@ Al final mostrar una única alerta con la cadena completa.*/
 console.log('-Exercise 5.c:')
 
 
-var palabras = ["hello", "javascript", "display", "fedeveloper ", "strix"];
+var words = ["hello", "javascript", "display", "fedeveloper ", "web"];
 var sentence = "";
 
 
-for (var i = 0; i < palabras.length; i++) {
+for (var i = 0; i < words.length; i++) {
   
-  sentence += palabras[i] + " ";
+  sentence += words[i] + " ";
 }
 alert(sentence);
 

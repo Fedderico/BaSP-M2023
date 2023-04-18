@@ -9,7 +9,7 @@ console.log('--EXERCISE 2: STRING');
 
 console.log('-Exercise 2.a:');
 
-var variable = "Hola, como va?!";
+var variable = "hi, how you doing?!";
 var resultMyStringUpper = variable.toUpperCase();
 
 console.log(resultMyStringUpper);
@@ -24,8 +24,8 @@ guardando el resultado en una nueva variable (utilizar substring).*/
 
 console.log('Exercise 2.b:')
 
-let tecnology = "JavaScript";
-let resultSubString = tecnology.substring(0, 5);
+var tecnology = "JavaScript";
+var resultSubString = tecnology.substring(0, 5);
 
 console.log(resultSubString); 
 
@@ -56,7 +56,7 @@ y las demás en minúscula. Guardar el resultado en una nueva variable
 
  console.log('Exercise 4.d:')
 
-var wordsString = 'hOLA mUnDo!';
+var wordsString = 'hEllo wOrld!';
 var resultMyStringNew = wordsString.substring(0, 1).toUpperCase() + wordsString.substring(1).toLowerCase();
 
 console.log(resultMyStringNew);

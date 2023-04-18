@@ -29,27 +29,27 @@ console.log(randomNumber);
 
 console.log('.Exercise 4.b:')
 
-var age = 100;
+var age = 30;
 
 if (age < 2) {
-    alert("Bebe");
+    alert("baby");
 } else {
     if (age >= 2 && age <= 12) {
-        alert("Niño");
+        alert("chilldren");
     } else {
         if (age >= 13 && age <= 19) {
-            alert("Adolescente");
+            alert("Teen");
         } else {
             if (age >= 20 && age <= 30) {
-                alert("Joven");
+                alert("young");
             } else {
                 if (age >= 31 && age <= 60) {
-                    alert("Adulto");
+                    alert("Adult");
                 } else {
                     if (age >= 61 && age <= 75) {
-                        alert("Adulto mayor");
+                        alert("Elderly");
                     } else {
-                        alert("Anciano");
+                        alert("Oldman");
                     }
                 }
             }

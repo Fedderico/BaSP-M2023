@@ -24,7 +24,6 @@ retornar el valor NaN como resultado.*/
 
 console.log('-Exercise 6.b:')
 
-
 function suma(a, b) {
     if (typeof a !== 'number' || typeof b !== 'number') {
       alert('Error: one of the parameters is not a number');
@@ -89,7 +88,8 @@ console.log(validateInteger(10));
 
 
 
-/*Convertir la validación del ejercicio 6d) en una función separada y llamarla dentro de una nueva función probando que todo siga funcionando igual que en el apartado anterior.*/
+/*Convertir la validación del ejercicio 6d) en una función separada y llamarla dentro de una nueva función
+probando que todo siga funcionando igual que en el apartado anterior.*/
 
 console.log('-Exercise 6.e:')
 
@@ -111,5 +111,3 @@ function sumaEnteros(num1, num2) {
   function esEntero(num) {
     return Number.isInteger(num);
   }
-
-

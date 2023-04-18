@@ -14,7 +14,7 @@ I included the files corresponding to the html structure, having as reference th
 In week-04 I styled the page to view it from different types of screens (mobile, tablet and desktop)
 
 ## Week 05
-In week five i make 
+in week five I did some exercises on javascript and modified mediaquerys from week four
 
 ## Authors
 

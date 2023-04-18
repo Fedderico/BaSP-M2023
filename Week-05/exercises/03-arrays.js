@@ -10,10 +10,10 @@ mostrar por consola los meses 5 y 11 (utilizar console.log).*/
 
 console.log('-Exercise 3.a:');
 
-var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+var months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 
-console.log(meses[4]);
-console.log(meses[10]);
+console.log(months[4]);
+console.log(months[10]);
 
 
 
@@ -24,7 +24,7 @@ console.log(meses[10]);
 
 console.log('-Exercise 3.b:');
 
-var meses = ["enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+var months = ["enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
 
 meses.sort();
 
@@ -38,24 +38,24 @@ console.log(meses);
 
 console.log('-Exercise 3.c:')
 
-var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+var months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 
-meses.unshift("Hola");
-meses.push("Mundo");
+months.unshift("Hola");
+months.push("Mundo");
 
-console.log(meses);
+console.log(months);
 
 
 /*Quitar un elemento del principio y del final del array (utilizar shift y pop).*/
 
 console.log('-Exercise 3.d:')
 
-var miArray = [1, 2, 3, 4, 5];
+var myArray = [1, 2, 3, 4, 5];
 
-var firstElement = miArray.shift();
-var lastElement = miArray.pop();
+var firstElement = myArray.shift();
+var lastElement = myArray.pop();
 
-console.log(miArray);
+console.log(myArray);
 
 console.log(firstElement);
 console.log(lastElement);
@@ -75,17 +75,17 @@ console.log(miArray);
 
 console.log('-Exercise 3.f:')
 
-var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
-var mesesConGuion = meses.join("-");
+var months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+var monthsWithDash = months.join("-");
 
-console.log(mesesConGuion);
+console.log(monthsWithDash);
 
 /* Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).*/
 
 console.log('-Exercise 3.g:')
 
-var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
-var mesesConCopia = meses.slice(5, 11);
+var months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+var monthsWithCopy = months.slice(5, 11);
 
-console.log(mesesConCopia);
+console.log(monthsWithCopy);
 
