@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/*--------------------------------------NAVBAR AND TITLE */
+header {
+    border-bottom: 1px black solid;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #49A37B;
+    font-family: 'roboto', sans-serif;
+    font-weight: 50rem;
+    font-size: 2.5rem;
+    line-height: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'roboto', sans serif;
+    font-weight: 25rem;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+}
+
+/*--------------------------------------LOREM + IMG*/
+
+section {
+    border-bottom: 1px black solid;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    color: rgba(0, 0, 0, 1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 25rem;
+    font-size: 1.5625rem;
+    line-height: 1.875rem;
+
+}
+
+.wallpaper {
+    background-image: url(/assets/img/LOGO-RR\ 1.svg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+p {
+    text-align: justify;
+    line-height: 1.875rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 25rem;
+    font-size: 1.25rem;
+
+
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+
+    /* background button */
+    background: #FFFFFF;
+    border: 1px solid #49A37B;
+    border-radius: 5px;
+
+}
+
+a {
+    color: #49A37B;
+    font-family: 'roboto', sans-serif;
+    font-weight: 31.25rem;
+    size: 1rem;
+    line-height: 1.25rem;
+
+}
+
+.img-logo {
+    display: none;
+}
+
+
+/*--------------------------------------APP FUNCTIONES*/
+
+
+/*  APP FUNCTION   */
+.function-set {
+    margin-bottom: black 1px solid;
+}
+
+h3 {
+    font-family: 'roboto', sans-serif;
+    font-weight: 500rem;
+    font-size: 2.5rem;
+    color: #49A37B;
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 50px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.app-funcion-item {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.app-funcion-item h2 {
+    color: #49A37B;
+    font-family: 'roboto' sans-serif;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+
+/*--------------------------------------ABOUT US */
+.about-us {
+    font-family: 'roboto' sans-serif;
+    font-weight: 500px;
+    font-size: 38px;
+    text-align: justify;
+}
+
+
+/*--------------------------------------FORM */
+
+.name-input,
+.lname-input,
+.email-input {
+
+    display: none;
+    margin-top: 10px;
+}
+
+.form-query {
+    display: flex;
+    flex-direction: column;
+}
+
+#textarea {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+#fname,
+#lname,
+#email {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#email {
+    margin-top: 20px;
+}
+
+
+
+
+.button-imput {
+    background-color: #AACE9B;
+    width: 120px;
+    color: #373867;
+    font-family: 'roboto' sans-serif;
+    font-size: 12px;
+    line-height: 37px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+
+}
+
+.form-contact {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+
+/*--------------------------------------CHECKBOX STYLE*/
+
+.checkbox-input {
+    text-align: justify;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+#membresias,
+#consulta,
+#complain {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'roboto' sans-serif;
+
+}
+
+.checkbox-input label {
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+    size: 24px;
+    line-height: 28.13px;
+    color: #373867;
+}
+
+
+
+/*--------------------------------------ACTIVITIES AND MEMBERSHIP*/
+.activitiesuno,
+.activitiesdos {
+    color: #373867;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.Card-membership>h3 {
+    text-align: justify;
+
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 400;
+    size: 32px;
+
+
+}
+
+.Card-membership>p {
+    color: #373867;
+    font-family: 'roboto' sans-serif;
+    font-weight: 500;
+    size: 14px;
+    margin-top: 5px;
+}
+
+
+/*--------------------------------------FOOTER*/
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-end {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 400;
+
+}
+
+
+@media screen and (min-width: 601px) and (max-width:1024px) {
+
+    .display-none-mobile {
+        display: none;
+    }
+
+    .section-title {
+        display: block;
+    }
+
+    .tablet-title {
+        text-align: center;
+        color: #49A37B;
+        font-family: 'roboto' sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .wallpaper {
+        background-image: none;
+    }
+
+    .img-logo {
+        display: block;
+        position: relative;
+        width: 300px;
+        left: 340px;
+        bottom: 320px;
+    }
+
+    .mobile-section {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        text-align: justify;
+        background-image: none;
+    ;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    nav>li>a {
+        margin-left: 20px;
+    }
+
+    .app-funcion-item {
+        display: block;
+        text-align: justify;
+        width: 450px;
+        height: 300px;
+    }
+
+    .app-funcion-item>img {
+        position: relative;
+        top: 50px;
+        left: 30px;
+    }
+
+    .app-funcion-item>h2 {
+        position: relative;
+        left: 30px;
+    }
+
+    .app-funcion-item>p {
+        position: relative;
+        left: 90px;
+    }
+
+    section>.activitiesuno,
+    .activitiesdos {
+        display: inline block;
+        flex-direction: column;
+    }
+
+    .list-mobile {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 1023px){
+  
+    .display-none-mobile{
+        display: none;
+    }
+
+}

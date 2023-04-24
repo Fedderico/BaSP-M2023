@@ -31,8 +31,7 @@ function suma(a, b) {
     }
     
     return a + b;
-  }
-  
+   }
   var result = suma(2, "3");
   
   console.log(result);

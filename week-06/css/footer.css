@@ -1,0 +1,13 @@
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-end {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 400;
+
+}
