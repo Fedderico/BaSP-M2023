@@ -25,10 +25,8 @@ h2 {
 
 nav {
     display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-around;
-    align-items: center;
+    list-style-type: none;
+    justify-content: space-evenly;
 }
 
 main {
@@ -75,6 +73,9 @@ footer{
 form{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
 }
 form>label{
@@ -82,8 +83,4 @@ form>label{
     font-weight: bold;
     font-family: 'roboto', sans-serif;
     margin-top: 30px;
-}
-
-.test{
-    border:"1px solid red";
 }
