@@ -16,6 +16,9 @@ In week-04 I styled the page to view it from different types of screens (mobile,
 ## Week 05
 in week five I did some exercises on javascript and modified mediaquerys from week four
 
+## Week 05
+In this week i add a logic javascript in the buttons signup and login
+
 ## Authors
 
 ### Week 01:
@@ -27,4 +30,6 @@ Federico Fracchia.
 ### Week 04:
 Federico Fracchia.
 ### Week 05:
+Federico Fracchia.
+### Week 06:
 Federico Fracchia.
