@@ -1,137 +1,213 @@
-// Obtener los elementos del formulario
-var form = document.querySelector('form');
-var nameInput = document.getElementById('name');
-var lnameInput = document.getElementById('lname');
-var dniInput = document.getElementById('dni');
-var birthdayInput = document.getElementById('birthday');
-var phoneInput = document.getElementById('phone');
-var addressInput = document.getElementById('address');
-var cityInput = document.getElementById('city');
-var postalCodeInput = document.getElementById('postalCode');
-var emailInput = document.getElementById('email');
-var passwordInput = document.getElementById('password');
-var confirmPasswordInput = document.getElementById('confirmPassword');
 
-nameInput.addEventListener('blur', validateName);
-lnameInput.addEventListener('blur', validateLname);
-dniInput.addEventListener('blur', validateDni);
-birthdayInput.addEventListener('blur', validateBirthday);
-phoneInput.addEventListener('blur', validatePhone);
-addressInput.addEventListener('blur', validateAddress);
-cityInput.addEventListener('blur', validateCity);
-postalCodeInput.addEventListener('blur', validatePostalCode);
-emailInput.addEventListener('blur', validateEmail);
-passwordInput.addEventListener('blur', validatePassword);
-confirmPasswordInput.addEventListener('blur', validateConfirmPassword);
+var form = document.querySelector("form");
+var nameInput = document.getElementById("name");
+var lnameInput = document.getElementById("lname");
+var dniInput = document.getElementById("dni");
+var birthdayInput = document.getElementById("birthday");
+var phoneInput = document.getElementById("phone");
+var addressInput = document.getElementById("address");
+var cityInput = document.getElementById("city");
+var postalCodeInput = document.getElementById("postalCode");
+var emailInput = document.getElementById("email");
+var passwordInput = document.getElementById("password");
+var confirmPasswordInput = document.getElementById("confirmPassword");
 
 
+const button = document.getElementById("button");
+button.addEventListener("click", function (event) {
+  event.preventDefault();
+});
 
-// Validar el campo de nombre
-nameInput.addEventListener('blur', function() {
-  if (nameInput.value.trim() === '') {
-    nameInput.classList.add('invalid');
+//separador de variables NAME
+var nameInput = document.getElementById("name");
+nameInput.addEventListener("blur", function () {
+  var nameValue = nameInput.value;
+  if (
+    nameValue.trim() === "" ||
+    nameValue.length < 3 ||
+    !/^[a-zA-Z]+$/.test(nameValue)
+  ) {
+    nameInput.style.borderColor = "red";
+    alert("Nombre no válido");
   } else {
-    nameInput.classList.remove('invalid');
-    nameInput.classList.add('valid');
+    nameInput.style.borderColor = "green";
+  }
+});
+nameInput.addEventListener("focus", function () {
+  nameInput.style.borderColor = "";
+});
+
+//separador de variables LAST NAME
+var lnameInput = document.getElementById("lname");
+lnameInput.addEventListener("blur", function () {
+  var lnameValue = lnameInput.value;
+  if (
+    lnameValue.trim() === "" ||
+    lnameValue.length < 3 ||
+    !/^[a-zA-Z]+$/.test(lnameValue)
+  ) {
+    lnameInput.style.borderColor = "red";
+    alert("Nombre no válido");
+  } else {
+    lnameInput.style.borderColor = "green";
+  }
+});
+lnameInput.addEventListener("focus", function () {
+  lnameInput.style.borderColor = "";
+});
+
+//separador de variables DNI
+var dniInput = document.getElementById("dni");
+dniInput.addEventListener("blur", function () {
+  var dniValue = dniInput.value;
+  if (
+    dniValue.trim() === "" ||
+    dniValue.length < 8 ||
+    !/^[0-9]+$/.test(dniValue)
+  ) {
+    dniInput.style.borderColor = "red";
+    alert("documento no valido");
+  } else {
+    dniInput.style.borderColor = "green";
   }
 });
 
-// Validar el campo de apellido
-lnameInput.addEventListener('blur', function() {
-  if (lnameInput.value.trim() === '') {
-    lnameInput.classList.add('invalid');
+//separador de variables CUMPLEAÑITO
+var birthdayInput = document.getElementById("birthday");
+birthdayInput.addEventListener("blur", function () {
+  var birthdayValue = birthdayInput.value;
+  if (
+    birthdayValue.trim() === "" ||
+    !/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/.test(birthdayValue)
+  ) {
+    birthdayInput.style.borderColor = "red";
+    alert("fecha no valida");
   } else {
-    lnameInput.classList.remove('invalid');
-    lnameInput.classList.add('valid');
+    birthdayInput.style.borderColor = "green";
   }
 });
 
-// Validar el campo de DNI
-dniInput.addEventListener('blur', function() {
-  if (dniInput.value.trim() === '' || isNaN(dniInput.value.trim())) {
-    dniInput.classList.add('invalid');
+//separador de variables  CELU
+var phoneInput = document.getElementById("phone");
+phoneInput.addEventListener("blur", function () {
+  var phoneValue = phoneInput.value;
+  if (
+    phoneValue.trim() === "" ||
+    phoneValue.length !== 10 ||
+    !/^[0-9]+$/.test(phoneValue)
+  ) {
+    phoneInput.style.borderColor = "red";
+    alert("Numero incorrecto");
   } else {
-    dniInput.classList.remove('invalid');
-    dniInput.classList.add('valid');
+    phoneInput.style.borderColor = "green";
   }
 });
 
-// Validar el campo de fecha de nacimiento
-birthdayInput.addEventListener('blur', function() {
-  if (birthdayInput.value.trim() === '') {
-    birthdayInput.classList.add('invalid');
+//separador de variables  DIRECCION
+var addressInput = document.getElementById("address");
+addressInput.addEventListener("blur", function () {
+  var addressValue = addressInput.value;
+  if (
+    addressValue.trim() === "" ||
+    addressValue.length < 5 ||
+    !/^[a-zA-Z0-9\s]+$/.test(addressValue)
+  ) {
+    addressInput.style.borderColor = "red";
+    alert("Dirección no válida.");
   } else {
-    birthdayInput.classList.remove('invalid');
-    birthdayInput.classList.add('valid');
+    addressInput.style.borderColor = "green";
   }
 });
 
-// Validar el campo de teléfono
-phoneInput.addEventListener('blur', function() {
-  if (phoneInput.value.trim() === '' || isNaN(phoneInput.value.trim())) {
-    phoneInput.classList.add('invalid');
+//separador de variables   CIUDAD/LOCALIDAD
+var cityInput = document.getElementById("city");
+cityInput.addEventListener("blur", function () {
+  var cityValue = cityInput.value;
+  if (
+    cityValue.trim() === "" ||
+    cityValue.length < 3 ||
+    !/^[a-zA-Z0-9]+$/.test(cityValue)
+  ) {
+    cityInput.style.borderColor = "red";
+    alert("Localidad no válida");
   } else {
-    phoneInput.classList.remove('invalid');
-    phoneInput.classList.add('valid');
+    cityInput.style.borderColor = "green";
   }
 });
 
-// Validar el campo de dirección
-addressInput.addEventListener('blur', function() {
-  if (addressInput.value.trim() === '') {
-    addressInput.classList.add('invalid');
+//separador de variables   CODIGO POSTAL
+var postalCodeInput = document.getElementById("postalCode");
+postalCodeInput.addEventListener("blur", function () {
+  var postalCode = this.value.trim();
+  if (!/^[0-9]{4,5}$/.test(postalCode)) {
+    alert("codigo postal incorrecto");
+    this.style.borderColor = "red";
   } else {
-    addressInput.classList.remove('invalid');
-    addressInput.classList.add('valid');
+    this.style.borderColor = "green";
   }
 });
 
-// Validar el campo de ciudad
-cityInput.addEventListener('blur', function() {
-  if (cityInput.value.trim() === '') {
-    cityInput.classList.add('invalid');
+//separador de variables   EMAIL
+
+var emailInput = document.getElementById("email");
+emailInput.addEventListener("blur", function () {
+  var email = this.value.trim();
+  if (
+    !/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(
+      email
+    )
+  ) {
+    alert("email incorrecto");
+    this.style.borderColor = "red";
   } else {
-    cityInput.classList.remove('invalid');
-    cityInput.classList.add('valid');
+    this.style.borderColor = "green";
   }
 });
 
-// Validar el campo de código postal
-postalCodeInput.addEventListener('blur', function() {
-  if (postalCodeInput.value.trim() === '' || isNaN(postalCodeInput.value.trim())) {
-    postalCodeInput.classList.add('invalid');
+//separador de variables PASSWORD//FORM
+
+var passwordInput = document.getElementById("password");
+
+passwordInput.addEventListener("blur", function () {
+  var password = this.value.trim();
+  if (password.trim() === "" || password.length < 6 || password.length > 15) {
+    passwordInput.style.borderColor = "red";
+    alert("Contraseña no válida");
+    this.style.borderColor = "red";
+    return;
   } else {
-    postalCodeInput.classList.remove('invalid');
-    postalCodeInput.classList.add('valid');
+    passwordInput.style.borderColor = "green";
   }
 });
 
-// Validar el campo de correo electrónico
-emailInput.addEventListener('blur', function() {
-  if (emailInput.value.trim() === '' || !emailInput.value.includes('@')) {
-    emailInput.classList.add('invalid');
-  } else {
-    emailInput.classList.remove('invalid');
-    emailInput.classList.add('valid');
-  }
-});
 
-// Validar el campo de contraseña
-passwordInput.addEventListener('blur', function() {
-  if (passwordInput.value.trim() === '' || passwordInput.value.length < 8) {
-    passwordInput.classList.add('invalid');
-  } else {
-    passwordInput.classList.remove('invalid');
-    passwordInput.classList.add('valid');
-  }
-});
+//separador de variables  ACCEPT PASSWORD
 
-// Validar el campo de confirmación de contraseña
-confirmPasswordInput.addEventListener('blur', function() {
-  if (confirmPasswordInput.value.trim() === '' || confirmPasswordInput.value !== passwordInput.value) {
-    confirmPasswordInput.classList.add('invalid');
-  } else {
-    confirmPasswordInput.classList.remove('invalid');
-    confirmPasswordInput.classList.add('valid');
-  }
+var confirmPasswordInput = document.getElementById("confirmPassword");
+confirmPasswordInput.addEventListener("blur", function () {
+  var password = this.value.trim();
+  if (password.trim() === "" || password.length < 6 || password.length > 15) {
+    confirmPasswordInput.style.borderColor = "red";
+    alert("Contraseña no válida");
+    this.style.borderColor = "red";
+    return;
+    } else {
+      confirmPasswordInput.style.borderColor = "green";
+    }
+})
+
+button.addEventListener('click', () => {
+  alert(
+    "Nombre: " + nameInput.value + "\n" +
+    "Apellido: " + lnameInput.value + "\n" +
+    "DNI: " + dniInput.value + "\n" +
+    "Fecha de nacimiento: " + birthdayInput.value + "\n" +
+    "Teléfono: " + phoneInput.value + "\n" +
+    "Dirección: " + addressInput.value + "\n" +
+    "Ciudad: " + cityInput.value + "\n" +
+    "Código postal: " + postalCodeInput.value + "\n" +
+    "Correo electrónico: " + emailInput.value + "\n" +
+    "Contraseña: " + passwordInput.value + "\n" +
+    "Confirmar contraseña: " + confirmPasswordInput.value + "\n"
+  );
 });
