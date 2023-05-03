@@ -18,18 +18,9 @@ in week five I did some exercises on javascript and modified mediaquerys from we
 
 ## Week 06
 In this week i add a logic javascript in the buttons signup and login
+## Week 07
+In this week i add a logic javascript in the buttons signup and login with form validate for api
 
-## Authors
-
-### Week 01:
-Federico Frachia.
-### Week 02:
-Federico Fracchia. 
-### Week 03:
-Federico Fracchia.
-### Week 04:
-Federico Fracchia.
-### Week 05:
-Federico Fracchia.
-### Week 06:
+- Author:
+### Week 07:
 Federico Fracchia.

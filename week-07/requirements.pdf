@@ -1,0 +1,40 @@
+Documento de requerimientos - Sistema de Login y Registro de Usuarios
+Objetivo del sistema
+El objetivo del sistema es proporcionar a los usuarios un formulario seguro para acceder a una aplicación web mediante un proceso de login y registro de usuarios.
+
+Requisitos
+
+#Login:
+
+-Email: el usuario debe ingresar una dirección de correo electrónico válida.
+-Contraseña: el usuario debe ingresar una contraseña válida.
+-Validaciones: debe haber validaciones en el lado del cliente y del servidor para garantizar la autenticidad de los datos ingresados.
+
+#Sign Up:
+-Nombre: el usuario debe ingresar su nombre completo.
+-Apellido: el usuario debe ingresar su apellido completo.
+-DNI: el usuario debe ingresar su número de documento de identidad.
+-Fecha de Nacimiento: el usuario debe ingresar su fecha de nacimiento.
+-Teléfono: el usuario debe ingresar su número de teléfono.
+-Dirección: el usuario debe ingresar su dirección completa.
+-Localidad: el usuario debe ingresar la localidad en la que vive.
+-Código Postal: el usuario debe ingresar el código postal de su localidad.
+-Email: el usuario debe ingresar una dirección de correo electrónico válida.
+-Contraseña: el usuario debe ingresar una contraseña válida.
+-Repetir Contraseña: el usuario debe repetir la contraseña ingresada anteriormente.
+-Validaciones: debe haber validaciones en el lado del cliente y del servidor para garantizar la autenticidad de los datos ingresados.
+
+###Validaciones de login:
+-Email: debe ser una dirección de correo electrónico válida (ejemplo: nombre@dominio.com).
+-Contraseña: debe tener al menos 8 caracteres y contener al menos una letra mayúscula, una letra minúscula, un número y un carácter especial.
+-Validaciones de Sign Up:
+-Nombre y Apellido: deben contener solo letras y tener al menos 2 caracteres.
+-DNI: debe tener 8 números y no debe contener letras ni caracteres especiales.
+-Fecha de Nacimiento: debe ser una fecha válida y el usuario debe ser mayor de edad.
+-Teléfono: debe tener un formato válido y contener solo números (ejemplo: +54 11 1234-5678).
+-Dirección: debe contener solo letras, números y caracteres especiales (ejemplo: Av. Corrientes 1234).
+-Localidad: debe contener solo letras y tener al menos 2 caracteres.
+-Código Postal: debe contener solo números y tener 4 o 5 dígitos.
+-Email: debe ser una dirección de correo electrónico válida (ejemplo: nombre@dominio.com).
+-Contraseña: debe tener al menos 8 caracteres y contener al menos una letra mayúscula, una letra minúscula, un número y un carácter especial.
+-Repetir Contraseña: debe ser igual a la contraseña ingresada anteriormente

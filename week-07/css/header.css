@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/*--------------------------------------NAVBAR AND TITLE */
+header {
+    border-bottom: 1px black solid;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #49A37B;
+    font-family: 'roboto', sans-serif;
+    font-weight: 50rem;
+    font-size: 2.5rem;
+    line-height: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'roboto', sans serif;
+    font-weight: 25rem;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+}
+
+/*--------------------------------------LOREM + IMG*/
+
+section {
+    border-bottom: 1px black solid;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    color: rgba(0, 0, 0, 1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 25rem;
+    font-size: 1.5625rem;
+    line-height: 1.875rem;
+
+}
+
+.wallpaper {
+    background-image: url(../assets/img/LOGO-RR\ 1.svg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+p {
+    text-align: justify;
+    line-height: 1.875rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 25rem;
+    font-size: 1.25rem;
+
+
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+
+    /* background button */
+    background: #FFFFFF;
+    border: 1px solid #49A37B;
+    border-radius: 5px;
+
+}
+
+a {
+    color: #49A37B;
+    font-family: 'roboto', sans-serif;
+    font-weight: 31.25rem;
+    size: 1rem;
+    line-height: 1.25rem;
+
+}
+
+.img-logo {
+    display: none;
+}

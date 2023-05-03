@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro de Miembros</title>
+        <link rel="stylesheet" href="../css/estilos.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/sign-up.css">
+    </head>
+
+    <body>
+        <header>
+            <h1><img src="../../assets/ícon/menuburguer.svg" alt="button-burger">MEGA ROCKET</h1>
+            <h2 class="display-none-mobile">A FREE AND FULLY RESPONSIVE SITE TEMPLATE</h2>
+            <nav>
+                <ul>
+                    <li><a href="../views/index.html"><img src="../../assets/ícon/Home.png" alt="icono-home"></a></li>
+                    <li><a href="../views/sign-up.html"><img src="../../assets/ícon/Add User Male.png" alt="icono-user"></a></li>
+                    <li><a href="../views/login.html"><img src="../../assets/ícon/Login.png" alt="icono-login"></a></li>
+                    <li><a href="#"><img src="../../assets/ícon/info.png" alt="icono-info"></a></li>
+                </ul>
+         </nav>
+        </header>
+        <main>
+            <fieldset>
+                <legend>
+                    <h1>Sign up</h1>
+                </legend>
+                <form id="form">
+                    <label>Name:</label>
+                    <input type="text" name="nombre" id="name">
+
+                    <label>Last Name:</label>
+                    <input type="text" name="apellido" id="lname">
+
+                    <label>DNI:</label>
+                    <input type="text" name="dni" id="dni">
+
+                    <label>Birthday:</label>
+                    <input type="text" name="fecha_nacimiento" id="birthday" placeholder="MM/DD/YYYY">
+
+                    <label>Phone number:</label>
+                    <input type="text" name="telefono" id="phone">
+
+                    <label>Address:</label>
+                    <input type="text" name="direccion" id="address">
+
+                    <label>City:</label>
+                    <input type="text" name="localidad" id="city">
+
+                    <label>Postal Code:</label>
+                    <input type="text" name="codigo_postal" id="postalCode">
+
+                    <label>Email:</label>
+                    <input type="text" name="email" id="email">
+
+                    <label>Password:</label>
+                    <input type="password" name="contrasena" id="password">
+
+                    <label>Repeat Password:</label>
+                    <input type="password" name="repetir_contrasena" id="confirmPassword">
+
+                    <input type="submit" value="Register" id="button" class="buttonSubmit">
+                </form>
+            </fieldset>
+        </main>
+        <footer>
+            <div class="social-media">
+                <img src="../../assets/ícon/facebook.svg" alt="logo-facebook">
+                <img src="../../assets/ícon/whatsapp.svg" alt="logo-whatsapp">
+                <img src="../../assets/ícon/instagram footer.svg" alt="logo-instagram">
+            </div>
+            <p class="footer-end"> &copy;MEGA ROCKET SA 2023</p>
+        </footer>
+        <script src="../js/sign.up.js"></script>
+    </body>
+</html>

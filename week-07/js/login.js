@@ -68,8 +68,10 @@ loginButton.addEventListener("click", (event) => {
   //////////////////// API //////////////////////////////////////////////////////////
 
   const url = "https://api-rest-server.vercel.app/login";
+
   const email = emailInput.value;
   const password = passwordInput.value;
+
   const queryParams = `?email=${emailInput.value}&password=${passwordInput.value}`;
   const requestUrl = url + queryParams;
 
@@ -78,22 +80,7 @@ loginButton.addEventListener("click", (event) => {
     .then((data) => {
       alert(`Email: ${email}\nPassword: ${password}\nMensaje: ${data.msg}`);
 
-      localStorage.setItem('email', email);
-      localStorage.setItem('password', password);
+     
     })
     .catch((error) => console.error(error));
 });
-
-
-function cargarDatosDeLocalStorage() {
-
-  if (localStorage.getItem('email') && localStorage.getItem('password')) {
-
-    emailInput.value = localStorage.getItem('email');
-
-    passwordInput.value = localStorage.getItem('password');
-  }
-}
-
-window.addEventListener('load', cargarDatosDeLocalStorage);
-///////////////////////////////////////////////////////////////////////////////////
